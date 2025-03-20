@@ -1,11 +1,13 @@
-import React from 'react'
+import { Hero } from "../../components/Hero"; // Cleaned up import
+import BoardingForm from "../../components/onboarding/BoardingForm";
 
-const page = () => {
+export default function Home() {
   return (
-    <div>
-      <p>Hello</p>
-    </div>
-  )
+    <main>
+      <Hero />
+      <div className="block bg-slate-200/40 z-10  -mt-36 overflow-hidden h-screen">
+      <BoardingForm/>
+      </div>
+    </main>
+  );
 }
-
-export default page

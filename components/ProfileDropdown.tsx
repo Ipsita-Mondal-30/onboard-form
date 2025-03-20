@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import { CiLogout } from 'react-icons/ci';
 import { PiDotsThreeOutline } from 'react-icons/pi';
+import '../src/app/layout';
 
 const ProfileDropdown = ({ session }: { session: any }) => {
   const [active, setActive] = React.useState(false);
