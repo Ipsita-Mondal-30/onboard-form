@@ -1,7 +1,6 @@
-@import "tailwindcss";
-
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Cairo:wght@200..1000&display=swap');
 
+@import "tailwindcss";
 
 
 @layer utilities {

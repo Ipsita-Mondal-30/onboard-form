@@ -6,9 +6,8 @@ import { LuBadgeHelp } from 'react-icons/lu';
 import { SiBasicattentiontoken } from 'react-icons/si';
 import ProfileDropdown from './ProfileDropdown';
 
-
 const Header = () => {
-  const { data: session } = useSession();
+//   const { data: session } = useSession();
 
   return (
     <header className="relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-8">
@@ -60,7 +59,7 @@ const Header = () => {
             <Link className="flex px-8 py-2" href="/help">
               <LuBadgeHelp size={25} color="gray" />
             </Link>
-            {session ? (
+            {/* {session ? (
               <ProfileDropdown session={session} />
             ) : (
               <Link
@@ -69,7 +68,7 @@ const Header = () => {
               >
                 Log In
               </Link>
-            )}
+            )} */}
           </div>
         </div>
       </nav>
